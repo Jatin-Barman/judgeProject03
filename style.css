@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family: Poppins;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2B2922;
+    margin: 20px 50px;
+}
+
+.bottom div > img {
+    position: absolute;
+    left: 0;
+    top: 430px;
+    width: 1519px;
+    max-height: 570px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    margin: 0px 50px;
+}
+
+.list{
+    list-style: none;
+}
+
+.list-item{
+    display: inline-block;
+    opacity: 0.5;
+    margin: 0px 20px ; 
+}
+
+.list-item:first-child{
+    font-weight: bolder;
+    opacity: 1;
+}
+
+.button-small{
+    padding: 10px 20px;
+    border: 1px solid #c3a831;
+    border-radius: 0.5rem;
+    font-size: 15px;
+    font-weight: 600;
+    background: rgba(0, 0, 0, 0);
+    color: #c3a831;
+    position: absolute;
+    right: 125px;
+    top: 26px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.hero-heading{
+    font-family:Montserrat;
+    font-weight: 800;
+    font-size: 55px;
+    color: #fff;
+    max-width: 50%;
+    margin-left: 65px;
+}
+
+.desc{
+   max-width: 31%;
+   font-size: 20px;
+   color: #fff;
+   position: absolute;
+   right: 155px;
+}
